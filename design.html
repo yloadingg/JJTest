@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJSportswear</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="icon" href="BG/favicon-16x16.png" type="image/x-icon">
+
+
+    </head>
+    <body>
+
+      <div id="preloader"></div> 
+      
+        <header>
+            <nav class="navbar">
+                <div class="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="nav-right">
+                    <button class="icon-button search-icon">
+                        <img src="BG/Icons.png" alt="Search">
+                    </button>   
+                <div class="nav-right">
+                    <button class="icon-button email-icon">
+                        <img src="BG/Econe2.png" alt="Email">
+                    </button>
+
+                    
+                    <div class="search-modal" id="searchModal">
+                        <div class="search-modal-content">
+                            <span class="close-search">&times;</span>
+                            <img src="BG/Llogo.png" alt="Image" class="search-image">
+                            <form id="searchForm">
+                                <input type="text" id="searchInput" placeholder="Search Store Location">
+                                <button class="button">
+                                  <span class="button-content">Search </span>
+                                </button>
+                                
+                            </form>
+                        </div>
+                        <!-- non found -->
+                        <div id="nothingFoundModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h2>Nothing Found</h2>
+                                <p>Sorry, we couldn't find any results for your location.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Modal for shop details -->
+                        <div id="shopDetailsModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <img id="shopImage" src="" alt="Shop Image">
+                                <h2 id="shopName"></h2>
+                                <p id="shopDetails"></p>
+                            </div>
+                        </div>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html">HOME</a></li>
+                    <li class="nav-item"><a href="#">DESIGNS</a></li>
+                    <li class="nav-item"><a href="Store.html">STORE</a></li>
+                    <li class="nav-item"><a href="SizeChart.html">SIZE CHART</a></li>
+                    <li class="nav-item"><a href="Contacs.html">CONTACTS</a></li>
+                    <li class="nav-footer">
+                        <a href="https://www.facebook.com/JennoelJennyl" target="_blank">
+                            <img src="BG/FBL.png" alt="Facebook">
+                        </a>
+                        <a href="https://www.instagram.com/jjsportswearph" target="_blank">
+                            <img src="BG/FIG.png" alt="Instagram">
+                        </a>
+                    </li>
+                </ul>
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="BG/Llogo.png" alt="Logo">
+                  </a>
+                </div>
+            </nav>
+            <div class="email-modal" id="emailModal">
+                <div class="email-modal-content">
+                    <span class="close">&times;</span>
+                    <img src="BG/Llogo.png" alt="Logo" class="modal-logo">  
+                    <h2>Subscribe to our Newsletter</h2>
+                    <form id="emailForm">
+                        <input type="email" id="emailInput" placeholder=" Enter Your Email" required>
+                        <button class="button-content">
+                          <div class="email-modal"></div>
+                            <span>Subscribe</span>
+                          </button>
+                        
+                        </button>
+                    <p id="emailError" class="error-message"></p>
+                <p id="successMessage" class="success-message" style="display: none;">Thank You For Signing Up!</p>
+                </div>
+            </div>
+         <br>
+           <br>
+             <br>
+             <br>
+           <br>
+            <h1>MU DESIGNS</h1>
+            <br>
+            <br>
+          
+         <!-- Img grid --> 
+         <div class="design-container">
+            <div class="design-item"><img src="BG/design 17.jpg" alt="Image 1"></div>
+            <div class="design-item"><img src="BG/design 16.jpg" alt="Image 2"></div>
+            <div class="design-item"><img src="BG/design 13.jpg" alt="Image 3"></div>
+            <div class="design-item"><img src="BG/design 15.jpg" alt="Image 4"></div>
+            <div class="design-item"><img src="BG/design 12.jpg" alt="Image 5"></div>
+            <div class="design-item"><img src="BG/design 11.jpg" alt="Image 6"></div>
+          </div>
+         
+          <div class="design-container">
+            <div class="design-item"><img src="BG/design 10.jpg" alt="Image 7"></div>
+            <div class="design-item"><img src="BG/design 9.jpg" alt="Image 8"></div>
+            <div class="design-item"><img src="BG/design 7.jpg" alt="Image 9"></div>
+            <div class="design-item"><img src="BG/design 6.jpg" alt="Image 10"></div>
+            <div class="design-item"><img src="BG/design 5.jpg" alt="Image 11"></div>
+            <div class="design-item"><img src="BG/Design 4.jpg" alt="Image 12"></div>
+            <div class="design-item"><img src="BG/design 3.jpg" alt="Image 13"></div>
+            <div class="design-item"><img src="BG/design 2.jpg" alt="Image 14"></div>
+            <div class="design-item"><img src="BG/Design 1.jpg" alt="Image 15"></div>
+            <div class="design-item"><img src="BG/design 19.jpg" alt="Image 16"></div>
+            <div class="design-item"><img src="BG/design 20.jpg" alt="Image 17"></div>
+            <div class="design-item"><img src="BG/Design 21.jpg" alt="Image 18"></div>
+          </div>
+
+          <div class="design-container">
+            <div class="design-item"><img src="BG/Design 24 .jpg" alt="Image 19"></div>
+            <div class="design-item"><img src="BG/design 37.jpg" alt="Image 20"></div>
+            <div class="design-item"><img src="BG/design 27 .jpg" alt="Image 21"></div>
+            <div class="design-item"><img src="BG/design 28 .jpg" alt="Image 22"></div>
+            <div class="design-item"><img src="BG/design 29 .jpg" alt="Image 22"></div>
+            <div class="design-item"><img src="BG/design 30 .jpg" alt="Image 23"></div>
+            <div class="design-item"><img src="BG/Design 32.jpg"  alt="Image 32"></div>
+            <div class="design-item"><img src="BG/design 33.jpg" alt="Image 23"></div>
+            <div class="design-item"><img src="BG/design 35.jpg"  alt="Image 32"></div>  
+           
+          </div>
+
+          
+          <div class="container-des">
+            <h1>WE PUT MORE SOON!</h1>
+          </div>
+          
+        
+          <div class="newsletter-container">
+            <div class="newsletter-title">Newsletter</div>
+            <div class="newsletter-subtitle">Stay updated with us!</div>
+            <div class="newsletter-form">
+              <img src="BG/NSIG.png" alt="email icon">
+              <input type="email" id="newsletterFormInput" placeholder="your@email.com">
+              <button type="submit" id="submit-button">➔</button>
+            </div>
+          </div>
+    <br>
+    <br>
+    <!-- Footer --> 
+    <div class="footer">
+      <a href="index.html">HOME</a>
+      <a href="design.html">DESIGNS</a>
+      <a href="Store.html">STORE</a>
+      <a href="SizeChart.html">SIZE CHART</a>
+      <a href="Contacs.html">CONTACTS</a>
+      <div class="social-icons">
+          <a href="https://www.facebook.com/JennoelJennyl"><img src="BG/FBSicon.png" alt="Facebook"></a>
+          <a href="https://www.instagram.com/jjsportswearph"><img src="BG/IGSicon.png" alt="Instagram"></a>
+      </div>
+      <a href="TC.html">Terms and Conditions</a>
+      <a href="PP.html">Privacy Policy</a>
+      <p>&copy; 2024, JJSportswear</p>
+  </div>
+  
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>
